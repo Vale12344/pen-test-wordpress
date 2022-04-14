@@ -8,4 +8,4 @@ wpscan --url http://127.0.0.1:8080 --api-token YOUR_API_TOKEN
 Once scan was run 92 vulnerabilities were found 
  ![](CodePath_WPintialScan.gif)
 
-# <font size="2">1. </font> 
+<font size="2">1. Vulenability one </font> 

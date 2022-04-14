@@ -17,3 +17,5 @@ References:
 - https://wpscan.com/vulnerability/3182002e-d831-4412-a27d-a5e39bb44314
 - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20153
 - https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/
+- 
+ ![](first_Vuln_.gif)

@@ -20,7 +20,7 @@ References:
 
  ![](first_Vuln_.gif)
  
- ### 1. WordPress 2.8-4.7 - Accessibility Mode Cross-Site Request Forgery (CSRF)
+ ### 2. WordPress 2.8-4.7 - Accessibility Mode Cross-Site Request Forgery (CSRF)
 Fixed in: 4.1.14
 References:
  - https://wpscan.com/vulnerability/e080c934-6a98-4726-8e7a-43a718d05e79
@@ -29,3 +29,6 @@ References:
 - https://wordpress.org/news/2017/01/wordpress-4-7-1-security-and-maintenance-release/
 
 ![](secound_Vuln_.gif)
+
+ 
+ ### 3. 

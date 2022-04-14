@@ -17,5 +17,15 @@ References:
 - https://wpscan.com/vulnerability/3182002e-d831-4412-a27d-a5e39bb44314
 - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20153
 - https://wordpress.org/news/2018/12/wordpress-5-0-1-security-release/
-- 
+
  ![](first_Vuln_.gif)
+ 
+ ### 1. WordPress 2.8-4.7 - Accessibility Mode Cross-Site Request Forgery (CSRF)
+Fixed in: 4.1.14
+References:
+ - https://wpscan.com/vulnerability/e080c934-6a98-4726-8e7a-43a718d05e79
+ - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5492
+ - https://github.com/WordPress/WordPress/commit/03e5c0314aeffe6b27f4b98fef842bf0fb00c733
+- https://wordpress.org/news/2017/01/wordpress-4-7-1-security-and-maintenance-release/
+
+![](secound_Vuln_.gif)

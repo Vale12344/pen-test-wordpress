@@ -6,6 +6,6 @@ wpscan --update
 2.	Now, I ran wpscan against the running WordPress instance on my local host. Using the following command 
 wpscan --url http://127.0.0.1:8080 --api-token YOUR_API_TOKEN
 Once scan was run 92 vulnerabilities were found 
- 
+ ![](CodePath_WPintialScan.gif)
 
-# <font size="5">1. </font> 
+# <font size="2">1. </font> 

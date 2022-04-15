@@ -77,8 +77,8 @@ Steps to recreate
 1. start up metsplsoit 
 
 2. Find correct payload, use following commands
-   -search type:auxiliary wordpress xmlrpc
-   -use auxiliary/scanner/http/wordpress_xmlrpc_login 
+   - search type:auxiliary wordpress xmlrpc
+   - use auxiliary/scanner/http/wordpress_xmlrpc_login 
   
 3. Set target and conditions for payload
    - setg RHOSTS 127.0.0.1

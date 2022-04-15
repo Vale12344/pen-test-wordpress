@@ -41,4 +41,9 @@ References:
  - https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
  
  
+![](four_Vuln_.gif)
+ 
 ### 4. Metasploit Username and password enumartion 
+ 
+![](third_Vuln_.gif)
+

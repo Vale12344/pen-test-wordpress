@@ -22,9 +22,9 @@ References:
  
  Steps to recreate:
  
- 1.Login as admin
+ 1. Login as admin
  
- 2.Create a post as authenticated user.
+ 2. Create a post as authenticated user.
  
  3. Paste script>alert(xss)</script>
  
@@ -39,8 +39,11 @@ References:
 ![](secound_Vuln_.gif)
 
  Steps to recreate:
- 1.Login as admin
- 2.Create a post as authenticated user.
+ 
+ 1. Login as admin
+ 
+ 2. Create a post as authenticated user.
+
  3. <script>alert(document.cookie)</script>
 
  

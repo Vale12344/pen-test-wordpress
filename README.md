@@ -1,5 +1,5 @@
 # Pen Testing Report On Wordpress
-Testing certain penetration methods on WordPress
+Testing certain penetration methods on WordPress 4.1
 
 ## Intial Scan
 1.  The first step in my initial scan was to have the docker images of both wordpress and kali running. With kali invoked we will first update the WordPress scans database using 

